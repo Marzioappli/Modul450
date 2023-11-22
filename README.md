@@ -47,3 +47,12 @@ In einem medizinischen Software-System kann ein Fehler dazu führen, dass Patien
 
 
 ### Aufgabe 2
+
+
+| ID  | Beschreibung                              | Erwartetes Resultat                               | Effektives Resultat                               | Status | Mögliche Ursache                               |
+| --- | ----------------------------------------- | -------------------------------------------------- | --------------------------------------------------- | ------ | ----------------------------------------------- |
+| 1   | Anmeldung und Anzeige verfügbarer Autos    | Nach erfolgreicher Anmeldung werden verfügbare Autos angezeigt. | Fehlermeldung oder leere Anzeige                  | Fehler | Authentifizierung oder Datenbankzugriff fehlgeschlagen |
+| 2   | Buchung eines Fahrzeugs                   | Nach Auswahl und Bestätigung eines Autos wird die Buchung erfolgreich abgeschlossen. | Fehlermeldung oder Buchung wird nicht gespeichert | Fehler | Probleme mit der Buchungsfunktionalität oder Datenbank |
+| 3   | Preisberechnung für Buchung                | Der angezeigte Preis für die Buchung entspricht der erwarteten Berechnung basierend auf Mietdauer, Fahrzeugtyp usw. | Falscher Preis oder keine Preisangabe            | Fehler | Fehlerhafte Berechnung oder fehlende Preisinformationen |
+| 4   | Stornierung einer Buchung                 | Nach Stornierung einer Buchung wird das Fahrzeug wieder als verfügbar markiert, und der Buchungsbetrag wird zurückerstattet. | Fehlermeldung oder keine Aktualisierung der Verfügbarkeit | Fehler | Probleme mit der Stornierungsfunktionalität oder Datenbank |
+| 5   | Zahlungsvorgang für eine Buchung           | Nach Eingabe der Zahlungsinformationen wird die Zahlung erfolgreich abgeschlossen. | Fehlermeldung oder keine Bestätigung der Zahlung | Fehler | Probleme mit der Zahlungsabwicklung oder externem Zahlungsdienst |
