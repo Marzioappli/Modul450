@@ -24,3 +24,26 @@ In einem medizinischen Software-System kann ein Fehler dazu führen, dass Patien
 
 
 # Arbeitspaket 2
+
+### Aufgabe 1
+
+#### Abstrankte Testfälle
+
+| Testfall | Beschreibung                          | Erwartetes Ergebnis |
+|----------|--------------------------------------|----------------------|
+| 1        | Kaufpreis < 15’000 CHF               | Kein Rabatt          |
+| 2        | 15’000 CHF <= Kaufpreis <= 20’000 CHF | 5% Rabatt           |
+| 3        | 20’000 CHF < Kaufpreis <= 25’000 CHF  | 7% Rabatt           |
+| 4        | Kaufpreis > 25’000 CHF               | 8,5% Rabatt         |
+
+#### Konkrete Testfälle
+
+| Testfall | Kaufpreis | Erwartetes Ergebnis |
+|----------|-----------|----------------------|
+| 1        | 10’000 CHF | Kein Rabatt          |
+| 2        | 17’500 CHF | 5% Rabatt            |
+| 3        | 23’000 CHF | 7% Rabatt            |
+| 4        | 30’000 CHF | 8,5% Rabatt          |
+
+
+### Aufgabe 2
