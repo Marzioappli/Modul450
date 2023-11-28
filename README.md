@@ -22,6 +22,7 @@ In einem medizinischen Software-System kann ein Fehler dazu führen, dass Patien
 
 ### Aufgabe 3
 
+**Siehe Code. Ubung1 Ordner**
 
 # Arbeitspaket 2
 
