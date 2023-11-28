@@ -24,7 +24,7 @@ public class PriceCalculationTest {
         double tatsächlichesErgebnis = calculatePrice(grundpreis, spezialpreis, extrapreis, extras, rabatt);
 
         // Überprüfen, ob der berechnete Preis mit einer Toleranz dem erwarteten Ergebnis entspricht
-        boolean testBestanden = Math.abs(erwartetesErgebnis - tatsächlichesErgebnis) < 0.0001;
+        boolean testBestanden = Math.abs(erwartetesErgebnis - tatsächlichesErgebnis) < 0;
 
         // Details des Tests ausgeben
         System.out.println("Testdaten:");
