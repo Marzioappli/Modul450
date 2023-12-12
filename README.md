@@ -57,3 +57,29 @@ In einem medizinischen Software-System kann ein Fehler dazu führen, dass Patien
 | 3   | Preisberechnung für Buchung                | Der angezeigte Preis für die Buchung entspricht der erwarteten Berechnung basierend auf Mietdauer, Fahrzeugtyp usw. | Falscher Preis oder keine Preisangabe            | Fehler | Fehlerhafte Berechnung oder fehlende Preisinformationen |
 | 4   | Stornierung einer Buchung                 | Nach Stornierung einer Buchung wird das Fahrzeug wieder als verfügbar markiert, und der Buchungsbetrag wird zurückerstattet. | Fehlermeldung oder keine Aktualisierung der Verfügbarkeit | Fehler | Probleme mit der Stornierungsfunktionalität oder Datenbank |
 | 5   | Zahlungsvorgang für eine Buchung           | Nach Eingabe der Zahlungsinformationen wird die Zahlung erfolgreich abgeschlossen. | Fehlermeldung oder keine Bestätigung der Zahlung | Fehler | Probleme mit der Zahlungsabwicklung oder externem Zahlungsdienst |
+
+
+# Aufgabenpaket 3
+
+## Aufgabe 2
+
+JUnit Features<br><br>
+
+JUnit ist ein leistungsstarkes Framework für das Testen von Java-Anwendungen. Hier sind einige der gängigsten Features von JUnit:<br>
+
+1. Annotations<br><br>
+
+JUnit verwendet Annotationen, um Testmethoden und -klassen zu kennzeichnen. Annotationen wie @Test, @BeforeEach, und @AfterEach helfen dabei, Teststrukturen zu definieren.<br>
+
+2. Assertions<br><br>
+
+Assertions sind zentrale Bestandteile von Tests und ermöglichen die Überprüfung von Bedingungen. Typische Assertions umfassen assertEquals, assertTrue, und assertFalse.<br>
+
+3. Parameterized Tests<br><br>
+
+Parameterized Tests erlauben das Schreiben von Tests, die mit verschiedenen Eingabewerten ausgeführt werden. Dies ermöglicht die Wiederverwendung von Testlogik für unterschiedliche Parameter.<br>
+
+4. Test Suites<br><br>
+
+Test Suites ermöglichen das Bündeln mehrerer Tests zu einer Gruppe. Dies ist nützlich, um Tests für verschiedene Teile einer Anwendung zu organisieren und auszuführen.<br>
+
