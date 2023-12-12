@@ -83,3 +83,6 @@ Parameterized Tests erlauben das Schreiben von Tests, die mit verschiedenen Eing
 
 Test Suites ermöglichen das Bündeln mehrerer Tests zu einer Gruppe. Dies ist nützlich, um Tests für verschiedene Teile einer Anwendung zu organisieren und auszuführen.<br>
 
+5. Before and After Methods<br><br>
+
+Die Annotationen @BeforeEach und @AfterEach ermöglichen das Ausführen von Setup- und Cleanup-Code vor bzw. nach jedem Test. Dies erleichtert die Wartung von Tests und stellt sicher, dass Tests in einem definierten Zustand starten.<br>
