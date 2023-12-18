@@ -58,6 +58,25 @@ In einem medizinischen Software-System kann ein Fehler dazu führen, dass Patien
 | 4   | Stornierung einer Buchung                 | Nach Stornierung einer Buchung wird das Fahrzeug wieder als verfügbar markiert, und der Buchungsbetrag wird zurückerstattet. | Fehlermeldung oder keine Aktualisierung der Verfügbarkeit | Fehler | Probleme mit der Stornierungsfunktionalität oder Datenbank |
 | 5   | Zahlungsvorgang für eine Buchung           | Nach Eingabe der Zahlungsinformationen wird die Zahlung erfolgreich abgeschlossen. | Fehlermeldung oder keine Bestätigung der Zahlung | Fehler | Probleme mit der Zahlungsabwicklung oder externem Zahlungsdienst |
 
+### Aufgabe 3
+Verstanden, hier ist der Text mit umgestellter Reihenfolge und Abschnitten, wobei die Stichwortform beibehalten wird:
+Welche Methoden im Code könnten für White-Box Testfälle verwendet werden? <br><br>
+
+    convertCurrency von EUR-Konto zu USD Konto
+    deposit/withdraw
+
+Was würden Sie am Code generell verbessern, welche Best Practices fallen Ihnen ein <br><br>
+
+    do {} while(true) Input Sanitation -> Eigene Scanner/Input Klasse
+    AccountExeption auslagern
+
+Identifizieren Sie mögliche Black-Box Testfälle, welche Sie als Benutzer testen können. <br><br>
+
+    Konto Erstellen mit Special Characters
+    Konto mit Special Characters anzeigen lassen
+    Ungültige Kontonummer abfragen
+    Geld auf ein Konto abheben / hinterlegen
+    Currency Converter nach der aktuellen Rate abfragen
 
 # Aufgabenpaket 3
 
