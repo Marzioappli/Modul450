@@ -110,3 +110,28 @@ Referenz-Seite: https://www.baeldung.com/junit-5
 
 
 ## Aufgabe 3
+
+Klassenliste
+
+    PromoYouthSavingsAccount extends SavingsAccount
+    SavingsAccount extends Account
+    SalaryAccount extends Account
+    Account
+    Bank
+    Booking
+
+Klassen-Util-Listen
+
+    BankUtils
+    AccountInverseBalanceComparator
+    AccountBalanceComparator
+
+Verbindungen
+
+    Bank benutzt BankUtils für Formatierungen
+    Ein Account besitzt Bookings
+    Bank besitzt Accounts (SalaryAccount, SavingsAccount, PromoYouthSavingsAccount)
+    AccountInverseBalanceComparator und AccountBalanceComparator werden zum Sortieren gebraucht in der Bank
+
+
+## Aufgabe 4
