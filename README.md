@@ -105,3 +105,8 @@ Test Suites ermöglichen das Bündeln mehrerer Tests zu einer Gruppe. Dies ist n
 5. Before and After Methods<br><br>
 
 Die Annotationen @BeforeEach und @AfterEach ermöglichen das Ausführen von Setup- und Cleanup-Code vor bzw. nach jedem Test. Dies erleichtert die Wartung von Tests und stellt sicher, dass Tests in einem definierten Zustand starten.<br>
+
+Referenz-Seite: https://www.baeldung.com/junit-5
+
+
+## Aufgabe 3
