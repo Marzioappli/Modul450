@@ -33,9 +33,9 @@ In einem medizinischen Software-System kann ein Fehler dazu führen, dass Patien
 | Testfall | Beschreibung                          | Erwartetes Ergebnis |
 |----------|--------------------------------------|----------------------|
 | 1        | Kaufpreis < 15’000 CHF               | Kein Rabatt          |
-| 2        | 15’000 CHF <= Kaufpreis <= 20’000 CHF | 5% Rabatt           |
-| 3        | 20’000 CHF < Kaufpreis <= 25’000 CHF  | 7% Rabatt           |
-| 4        | Kaufpreis > 25’000 CHF               | 8,5% Rabatt         |
+| 2        | 15’000 CHF <= Kaufpreis < 20’000 CHF | 5% Rabatt           |
+| 3        | 20’000 CHF <= Kaufpreis < 25’000 CHF  | 7% Rabatt           |
+| 4        | Kaufpreis => 25’000 CHF               | 8,5% Rabatt         |
 
 #### Konkrete Testfälle
 
