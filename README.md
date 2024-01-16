@@ -59,7 +59,6 @@ In einem medizinischen Software-System kann ein Fehler dazu führen, dass Patien
 | 5   | Zahlungsvorgang für eine Buchung           | Nach Eingabe der Zahlungsinformationen wird die Zahlung erfolgreich abgeschlossen. | Fehlermeldung oder keine Bestätigung der Zahlung | Fehler | Probleme mit der Zahlungsabwicklung oder externem Zahlungsdienst |
 
 ### Aufgabe 3
-Verstanden, hier ist der Text mit umgestellter Reihenfolge und Abschnitten, wobei die Stichwortform beibehalten wird:
 Welche Methoden im Code könnten für White-Box Testfälle verwendet werden? <br><br>
 
     convertCurrency von EUR-Konto zu USD Konto
