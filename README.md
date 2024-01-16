@@ -66,8 +66,7 @@ Welche Methoden im Code könnten für White-Box Testfälle verwendet werden? <br
 
 Was würden Sie am Code generell verbessern, welche Best Practices fallen Ihnen ein <br><br>
 
-    do {} while(true) Input Sanitation -> Eigene Scanner/Input Klasse
-    AccountExeption auslagern
+    Input Sanitation -> Eigene Scanner/Input Klasse
 
 Identifizieren Sie mögliche Black-Box Testfälle, welche Sie als Benutzer testen können. <br><br>
 
