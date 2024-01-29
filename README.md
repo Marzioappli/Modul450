@@ -133,3 +133,15 @@ Verbindungen
 
 
 ## Aufgabe 4
+
+
+
+# Aufgabenpaket 5
+
+## Aufgabe 1
+
+Um die Applikation der REST Schnittstellen des Backends
+automatisiert zu testen, verwenden wir bei uns Postman. <br><br>
+
+Grund dafür: <br>
+Postman ist sehr praktisch, wenn's ums Testen von REST APIs geht. Sehr einfach zu nutzen und voll flexibel. Mann kann schnell API-Requests absetzen, checken was zurückkommt und sogar Tests automatisieren. Die Oberfläche ist intuitiv, also perfekt. Egal ob man gerade erst anfängt oder das Programm schon lange kennt. Mit Postman kriegt man das Testing sehr einfach hin.
