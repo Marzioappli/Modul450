@@ -82,7 +82,7 @@ Identifizieren Sie mögliche Black-Box Testfälle, welche Sie als Benutzer teste
 
 JUnit Features<br><br>
 
-JUnit ist ein leistungsstarkes Framework für das Testen von Java-Anwendungen. Hier sind einige der gängigsten Features von JUnit:<br>
+JUnit ist ein leistungsstarkes Framework für das Testen von Java-Anwendungen.<br>
 
 1. Annotations<br><br>
 
